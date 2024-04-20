@@ -8,7 +8,9 @@ stages{
          }
 
    stage('Run the python script') { 
+      steps{
       sh 'python demo.py'
+      }
    }
 
   
